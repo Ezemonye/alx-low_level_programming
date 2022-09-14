@@ -6,16 +6,15 @@
  */
 int main(void)
 {
-	char h[m] = "main";
-	int m;
+	int i = 0;
+	char c;
+	char s[] = "main\n";
 
-	m = 0;
-
-	while (m <= 8)
+	while (i <= 9)
 	{
-		_putchar(h[m]);
-		m++;
+		c = s[i];
+		_putchar(c);
+		i++									
 	}
-	_putchar('\n');
 	return (0);
 }
