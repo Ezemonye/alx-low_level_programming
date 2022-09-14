@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char h[] = "main";
+	char h[m] = "main";
 	int m;
 
 	m = 0;
