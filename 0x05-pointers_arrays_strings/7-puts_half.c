@@ -5,7 +5,7 @@
  * @str: char type
  *
  * Description: prints half of a string
- * Return: void 
+ * Return: void
  */
 void puts_half(char *str)
 {
