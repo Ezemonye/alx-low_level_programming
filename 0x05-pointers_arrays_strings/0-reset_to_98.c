@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * Description:updates the value of an int to 98.
+ * reset_to_98 - A function with one argument.
+ * Description: updates the value of an int to 98.
  *
- * Return: Always 0.
+ * @n: pointer variable of type int
+ * Return: constant
  */
-
-void reset_to_98(int *n) /* reset_t0_98 */
+void reset_to_98(int *n)
 {
-	int i;
-	*n = &i;
 	*n = 98;
 }
