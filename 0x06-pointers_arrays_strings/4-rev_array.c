@@ -9,8 +9,12 @@ include "main.h"
  */
 void reverse_array(int *a, int n)
 {
-	int j, temp, i = n;
+	int tmp, index;
 
-	for (i--, j = 0; j < n / 2; j++, i--)
-		temp = a[j], a[j] = a[i], a[i] = temp;
+	for (index = n - 1; index >= n / 2; index--)
+	{
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
+	}
 }
